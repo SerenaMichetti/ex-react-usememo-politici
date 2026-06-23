@@ -1,0 +1,25 @@
+.card img {
+    min-height: 20rem;
+    object-fit: contain;
+}
+.card p{
+    height: 10rem;
+}
+
+.card {
+    background-color: rgb(211, 204, 204);
+    width: 30%;
+    margin: 1rem auto ; 
+    height: 35rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.politicians-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
